@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:300px;
+    padding-right: 300px;
+    margin:0;
+}
+
+.header-left {
+    font-size: 24px;
+    color: #F9F1F8;
+}
+
+.header-right a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
