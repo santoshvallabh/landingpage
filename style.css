@@ -1,9 +1,16 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-    
 }
 
 .header {
@@ -14,6 +21,8 @@ body {
     align-items: center;
     padding-left:300px;
     padding-right: 300px;
+    padding-bottom: 50px;
+    padding-top: 20px;
     margin:0;
 }
 
@@ -40,28 +49,23 @@ body {
     margin:0;
 }
 
-.first-left {
+.first-left, first-right {
     display: flex;
-    width: 500px;
-    flex: 0 1 auto;
     flex-direction: column;
     gap: 16px;
-}
-
-.first-right {
-    width: 500px;
     flex: 1 1 auto;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 4.5vw;
     font-weight: bolder;
     color: #F9FAF8;
+    flex: 1 1 auto;
 
 }
 
 .subtext {
-    font-size: 18px;
+    font-size: 1.5vw;
     color: #E5E7EB;
 }
 
@@ -80,3 +84,91 @@ img {
     border-radius: 10px;
     
 }
+
+.first-right img {
+    max-width: 100%; 
+    min-width: 250px; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.second-section {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 32px;
+}
+
+.image-carousel {
+    display: flex;
+    gap: 32px;
+    margin: 16px;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.card {
+    width: 200px;
+}
+
+.img-subtext {
+    text-align: center;
+    margin: 8px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: right;
+    margin: 24px;
+}
+
+.call-box{
+    margin:100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 25px;
+    color: white;
+}
+
+.call-box-header {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.sign-up {
+    border: 2px solid white;
+
+}    
